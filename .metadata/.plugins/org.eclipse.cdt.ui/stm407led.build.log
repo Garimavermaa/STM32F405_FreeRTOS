@@ -1,0 +1,42 @@
+14:58:32 **** Incremental Build of configuration Debug for project stm407led ****
+make -j12 all 
+arm-none-eabi-gcc "../thirdparty/SAGGER/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/include" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"thirdparty/SAGGER/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.d" -MT"thirdparty/SAGGER/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "thirdparty/SAGGER/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.o"
+arm-none-eabi-gcc "../thirdparty/SAGGER/SEGGER/SEGGER_RTT.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/include" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"thirdparty/SAGGER/SEGGER/SEGGER_RTT.d" -MT"thirdparty/SAGGER/SEGGER/SEGGER_RTT.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "thirdparty/SAGGER/SEGGER/SEGGER_RTT.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"thirdparty/SAGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.d" -MT"thirdparty/SAGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "thirdparty/SAGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.o" "../thirdparty/SAGGER/SEGGER/SEGGER_RTT_ASM_ARMv7M.S"
+arm-none-eabi-gcc "../thirdparty/SAGGER/SEGGER/SEGGER_RTT_printf.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/include" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"thirdparty/SAGGER/SEGGER/SEGGER_RTT_printf.d" -MT"thirdparty/SAGGER/SEGGER/SEGGER_RTT_printf.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "thirdparty/SAGGER/SEGGER/SEGGER_RTT_printf.o"
+arm-none-eabi-gcc "../thirdparty/SAGGER/SEGGER/SEGGER_SYSVIEW.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/include" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"thirdparty/SAGGER/SEGGER/SEGGER_SYSVIEW.d" -MT"thirdparty/SAGGER/SEGGER/SEGGER_SYSVIEW.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "thirdparty/SAGGER/SEGGER/SEGGER_SYSVIEW.o"
+arm-none-eabi-gcc "../thirdparty/SAGGER/OS/SEGGER_SYSVIEW_FreeRTOS.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/include" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"thirdparty/SAGGER/OS/SEGGER_SYSVIEW_FreeRTOS.d" -MT"thirdparty/SAGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "thirdparty/SAGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o"
+arm-none-eabi-gcc "../thirdparty/SAGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/include" -I"C:/Users/garim/Desktop/freertos/stm407led/thirdparty/freeRTOS/portable/GCC/ARM_CM4F" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"thirdparty/SAGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.d" -MT"thirdparty/SAGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "thirdparty/SAGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o"
+../thirdparty/SAGGER/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.c:59:10: fatal error: SEGGER_RTT.h: No such file or directory
+   59 | #include "SEGGER_RTT.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [thirdparty/SAGGER/SEGGER/Syscalls/subdir.mk:19: thirdparty/SAGGER/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../thirdparty/SAGGER/SEGGER/SEGGER_RTT_printf.c:55:10: fatal error: SEGGER_RTT_Conf.h: No such file or directory
+   55 | #include "SEGGER_RTT_Conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+../thirdparty/SAGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.c:55:10: fatal error: SEGGER_SYSVIEW.h: No such file or directory
+   55 | #include "SEGGER_SYSVIEW.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+../thirdparty/SAGGER/OS/SEGGER_SYSVIEW_FreeRTOS.c:56:10: fatal error: SEGGER_SYSVIEW.h: No such file or directory
+   56 | #include "SEGGER_SYSVIEW.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [thirdparty/SAGGER/SEGGER/subdir.mk:32: thirdparty/SAGGER/SEGGER/SEGGER_RTT_printf.o] Error 1
+make: *** [thirdparty/SAGGER/Config/subdir.mk:19: thirdparty/SAGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o] Error 1
+In file included from ../thirdparty/SAGGER/SEGGER/SEGGER_SYSVIEW.h:64,
+                 from ../thirdparty/SAGGER/SEGGER/SEGGER_SYSVIEW_Int.h:64,
+                 from ../thirdparty/SAGGER/SEGGER/SEGGER_SYSVIEW.c:146:
+../thirdparty/SAGGER/SEGGER/SEGGER.h:59:10: fatal error: Global.h: No such file or directory
+   59 | #include "Global.h"         // Type definitions: U8, U16, U32, I8, I16, I32
+      |          ^~~~~~~~~~
+compilation terminated.
+make: *** [thirdparty/SAGGER/OS/subdir.mk:19: thirdparty/SAGGER/OS/SEGGER_SYSVIEW_FreeRTOS.o] Error 1
+make: *** [thirdparty/SAGGER/SEGGER/subdir.mk:32: thirdparty/SAGGER/SEGGER/SEGGER_SYSVIEW.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+14:58:32 Build Failed. 11 errors, 0 warnings. (took 377ms)
+

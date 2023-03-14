@@ -1,0 +1,10 @@
+12:09:30 **** Incremental Build of configuration Debug for project MUTEX_UART ****
+make -j12 all 
+arm-none-eabi-size   MUTEX_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21580	     28	  78940	 100548	  188c4	MUTEX_UART.elf
+Finished building: default.size.stdout
+ 
+
+12:09:30 Build Finished. 0 errors, 0 warnings. (took 369ms)
+

@@ -1,0 +1,10 @@
+13:35:41 **** Incremental Build of configuration Debug for project rtos_binarysemaphore ****
+make -j12 all 
+arm-none-eabi-size   rtos_binarysemaphore.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17980	     28	  78876	  96884	  17a74	rtos_binarysemaphore.elf
+Finished building: default.size.stdout
+ 
+
+13:35:42 Build Finished. 0 errors, 0 warnings. (took 383ms)
+

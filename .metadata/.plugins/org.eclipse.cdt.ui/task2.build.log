@@ -1,0 +1,17 @@
+23:31:27 **** Incremental Build of configuration Debug for project task2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS" -I"C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include" -I"C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/portable/GCC/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "task2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\garim\Desktop\freertos\task2\STM32F405RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="task2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: task2.elf
+ 
+arm-none-eabi-size   task2.elf 
+arm-none-eabi-objdump -h -S  task2.elf  > "task2.list"
+   text	   data	    bss	    dec	    hex	filename
+  15720	     28	  78868	  94616	  17198	task2.elf
+Finished building: default.size.stdout
+ 
+Finished building: task2.list
+ 
+
+23:31:28 Build Finished. 0 errors, 0 warnings. (took 1s.42ms)
+

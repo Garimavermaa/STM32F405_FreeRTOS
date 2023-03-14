@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;STMF407/Thirdparty/Sagger&apos; to &apos;SAGGER&apos;" description="Rename resource &apos;Sagger&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Thirdparty/Sagger" name="SAGGER" stamp="1678386874832" updateReferences="true"/>
+</session>

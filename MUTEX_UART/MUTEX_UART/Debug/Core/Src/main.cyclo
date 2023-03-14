@@ -1,0 +1,9 @@
+main.c:55:6:Send_Uart	1
+main.c:64:6:HPT_Task	1
+main.c:77:6:MPT_Task	1
+main.c:110:5:main	2
+main.c:163:6:SystemClock_Config	3
+main.c:210:13:MX_USART2_UART_Init	2
+main.c:243:13:MX_GPIO_Init	1
+main.c:268:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:285:6:Error_Handler	1

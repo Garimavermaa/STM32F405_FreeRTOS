@@ -1,0 +1,10 @@
+17:23:27 **** Incremental Build of configuration Debug for project task_suspend ****
+make -j12 all 
+arm-none-eabi-size   task_suspend.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17124	     28	  78876	  96028	  1771c	task_suspend.elf
+Finished building: default.size.stdout
+ 
+
+17:23:27 Build Finished. 0 errors, 0 warnings. (took 408ms)
+

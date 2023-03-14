@@ -1,0 +1,22 @@
+Thirdyparty/FreeRTOS/stream_buffer.o: \
+ ../Thirdyparty/FreeRTOS/stream_buffer.c \
+ C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/FreeRTOS.h \
+ C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/projdefs.h \
+ C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/portable.h \
+ C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/deprecated_definitions.h \
+ C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/mpu_wrappers.h \
+ C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/task.h \
+ C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/list.h \
+ C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/stream_buffer.h
+C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/FreeRTOS.h:
+C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/projdefs.h:
+C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/portable.h:
+C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/deprecated_definitions.h:
+C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/mpu_wrappers.h:
+C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/task.h:
+C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/list.h:
+C:/Users/garim/Desktop/freertos/task/Thirdyparty/FreeRTOS/include/stream_buffer.h:
